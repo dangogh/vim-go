@@ -558,6 +558,11 @@ CTRL-t
     Highlights all identifiers that are equivalent to the identifier under the
     cursor.
 
+                                                          *:GoSameIdsClear*
+:GoSameIdsClear
+
+    Clears all SameIds highlights from a |:GoSameIds| call.
+
                                                               *:GoMetaLinter*
 :GoMetaLinter [path]
 
