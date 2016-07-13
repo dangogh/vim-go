@@ -153,7 +153,7 @@ augroup vim-go
 
   " GoSameId automatic update
   if get(g:, "go_auto_sameids", 0)
-    autocmd CursorMoved *.go nested call go#guru#SameIds(-1)
+    autocmd CursorHold *.go nested call go#guru#SameIds(-1)
   endif
 
   " Echo the identifier information when completion is done. Useful to see
